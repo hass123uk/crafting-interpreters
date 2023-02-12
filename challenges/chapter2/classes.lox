@@ -1,0 +1,17 @@
+class Car {
+    init(name){
+        this.name = name;
+    }
+
+    printName(){
+        print this.name;
+    }
+}
+
+var car = Car("Mazda");
+car.printName();
+
+class Truck < Car {}
+
+var truck = Truck("CAT");
+truck.printName();

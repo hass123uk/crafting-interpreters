@@ -1,0 +1,20 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      //https://github.com/munificent/craftinginterpreters
+      "path": "../craftinginterpreters"
+    }
+  ],
+  "settings": {
+    "java.project.sourcePaths": ["java"],
+    "cSpell.words": ["craftinginterpreters", "jlox"],
+    "java.format.settings.url": "eclipse-formatter.xml",
+    "[java]": {
+      "editor.insertSpaces": true,
+      "editor.detectIndentation": true
+    }
+  }
+}
