@@ -10,6 +10,14 @@
       "request": "launch",
       "mainClass": "lox.Lox",
       "projectName": "crafting-interpreters_3a196ff7"
+    },
+    {
+      "type": "java",
+      "name": "Generate AST",
+      "request": "launch",
+      "args": "${workspaceFolder}/java/lox",
+      "mainClass": "tool.GenerateAST",
+      "projectName": "crafting-interpreters_3a196ff7"
     }
   ]
 }
